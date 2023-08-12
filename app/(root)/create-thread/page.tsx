@@ -16,8 +16,7 @@ async function Page() {
                 <h1 className="head-text">Create Thread</h1>
                 <PostThread userId={userInfo._id} />            
             </>
-        )
-    
+        )    
 }
 
 export default Page 
