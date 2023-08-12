@@ -73,7 +73,7 @@ function PostThread({ userId }: { userId: string }) {
                 </FormLabel>                  
               <FormControl className="no-focus border border-dark-4 bg-dark-3 text-light-1">
                       <Textarea
-                        placeholder="Tell us a little bit about yourself"
+                        placeholder="What is happening?!"
                           rows={15}
                           className="account-form_input no-focus"
                           {...field}
