@@ -1,9 +1,8 @@
 'use client'
 
 import Image from 'next/image'
-import React from 'react'
-import { Button } from '../ui/button'
 import { useRouter } from 'next/navigation'
+import { Button } from '../ui/button'
 
 interface Props{
     id: string,
