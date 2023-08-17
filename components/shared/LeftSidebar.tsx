@@ -8,7 +8,6 @@ import { SignedIn,SignOutButton, useAuth} from "@clerk/nextjs";
 
 
 function LeftSidebar() {
-
     const router = useRouter();
     const pathname = usePathname();
 

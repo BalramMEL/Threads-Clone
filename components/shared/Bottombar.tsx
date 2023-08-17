@@ -29,6 +29,7 @@ function Bottombar() {
                                     alt={link.label}
                                     width={24}
                                     height={24}
+                                    className='object-contain'
                                 />
                                 <p className="text-light-1 
                                     text-subtle-medium
