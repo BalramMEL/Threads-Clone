@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { Button } from '../ui/button'
 
+
 interface Props{
     id: string,
     name: string,
@@ -19,7 +20,7 @@ const UserCard = ({
     imgUrl,
     personType,
 }: Props) => {
-
+    const isCommunity = personType === "Community";
     const router = useRouter(); 
 
   return (
@@ -44,7 +45,7 @@ const UserCard = ({
               className='user-card_btn'
               onClick={() => router.push(`/profile/${id}`)}
           >
-              View
+             View
            </Button>
     </article>
   )
